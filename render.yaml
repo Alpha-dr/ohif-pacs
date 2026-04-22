@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: orthanc-ohif
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
