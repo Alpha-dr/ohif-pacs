@@ -9,15 +9,12 @@
 
   "DicomWeb": {
     "Enable": true,
-    "Root": "/dicom-web/"
-  },
+    "Root": "/dicom-web/",
 
-  "DicomWebServers": {
-    "local": {
-      "Url": "https://pacs.image3dreport.com/dicom-web/",
-      "QidoRoot": "/dicom-web/",
-      "WadoRoot": "/dicom-web/",
-      "StowRoot": "/dicom-web/"
+    "Servers": {
+      "local": [
+        "https://pacs.image3dreport.com/dicom-web/"
+      ]
     }
   }
 }
