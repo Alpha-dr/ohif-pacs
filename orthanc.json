@@ -1,10 +1,20 @@
 {
   "Name": "Image3D PACS",
+
   "AuthenticationEnabled": true,
 
   "RegisteredUsers": {
     "image3d": "Image3D@2026"
   },
 
-  "RemoteAccessAllowed": true
+  "RemoteAccessAllowed": true,
+
+  "OrthancExplorer2": {
+    "Enable": true
+  },
+
+  "DicomWeb": {
+    "Enable": true,
+    "Root": "/dicom-web/"
+  }
 }
