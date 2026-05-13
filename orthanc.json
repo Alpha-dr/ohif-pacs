@@ -9,6 +9,10 @@
 
   "RemoteAccessAllowed": true,
 
+  "Plugins": [
+    "/usr/share/orthanc/plugins"
+  ],
+
   "OrthancExplorer2": {
     "Enable": true
   },
@@ -16,5 +20,9 @@
   "DicomWeb": {
     "Enable": true,
     "Root": "/dicom-web/"
+  },
+
+  "OHIF": {
+    "Enable": true
   }
 }
