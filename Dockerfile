@@ -1,2 +1,2 @@
-FROM orthancteam/orthanc
+FROM jodogne/orthanc-plugins
 COPY orthanc.json /etc/orthanc/
