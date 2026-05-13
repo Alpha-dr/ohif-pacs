@@ -5,16 +5,5 @@
     "image3d": "Image3D@2026"
   },
 
-  "RemoteAccessAllowed": true,
-
-  "DicomWeb": {
-    "Enable": true,
-    "Root": "/dicom-web/",
-
-    "Servers": {
-      "local": [
-        "https://pacs.image3dreport.com/dicom-web/"
-      ]
-    }
-  }
+  "RemoteAccessAllowed": true
 }
