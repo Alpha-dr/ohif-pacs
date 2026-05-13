@@ -1,0 +1,10 @@
+{
+  "Name": "Image3D PACS",
+  "AuthenticationEnabled": true,
+
+  "RegisteredUsers": {
+    "image3d": "Image3D@2026"
+  },
+
+  "RemoteAccessAllowed": true
+}
