@@ -1,3 +1,3 @@
 FROM jodogne/orthanc-plugins:latest
 
-COPY orthanc.json /etc/orthanc/orthanc.json
+COPY custom.json /etc/orthanc/custom.json
